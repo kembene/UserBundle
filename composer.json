@@ -1,0 +1,29 @@
+{
+    "name": "kinwae/user-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony FOSUserBundle Integration",
+    "keywords": ["User management"],
+    "homepage": "http://github.com/kembene",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nkem-Etoh Kembene",
+            "email": "kembene@kinwae.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.1,<2.3-dev",
+        "symfony/security-bundle": ">=2.1,<2.3-dev",
+        "friendsofsymfony/user-bundle": "*"
+    },
+    "autoload": {
+        "psr-0": { "Kinwae\\UserBundle": "" }
+    },
+    "target-dir": "Kinwae/UserBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+parameters:
+#    kinwae_user.example.class: Kinwae\UserBundle\Example
+
+services:
+#    kinwae_user.example:
+#        class: %kinwae_user.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
